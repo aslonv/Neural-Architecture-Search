@@ -1,0 +1,12 @@
+[package]
+name = "your-project-name"
+version = "0.1.0"
+authors = ["Bekali Aslonov <bekali.aslonov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ndarray = "0.15.3"  # Adjust the version as needed
+
+[[bin]]
+name = "your-project-name"  # Adjust the name as desired
+path = "main.rs"  # Update the path to your main.rs file
